@@ -2,5 +2,10 @@
   "dependencies": {
     "@chainlink/contracts": "^0.8.0",
     "@chainlink/contracts-ccip": "0.7.3"
+  },
+  "scripts": {
+    "deploy": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --legacy && node script/generateTsAbis.js",
+    "deploy:verify": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --verify --legacy && node script/generateTsAbis.js",
+    "deploy:functions": "forge build && forge script script/Deploy.s.sol:DeployFunctionsConsumer --rpc-url ${0:-default_network} --broadcast --verify --legacy"
   }
 }
