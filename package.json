@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "@chainlink/contracts": "^0.8.0",
-    "@chainlink/contracts-ccip": "0.7.3"
+    "@chainlink/contracts": "latest",
+    "@chainlink/contracts-ccip": "0.7.6",
+    "@api3/airnode-protocol": "^0.13.0"
   },
   "scripts": {
     "deploy": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --legacy && node script/generateTsAbis.js",
