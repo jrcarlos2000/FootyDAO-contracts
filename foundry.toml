@@ -1,6 +1,31 @@
 [profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
+src = 'src'
+out = 'out'
+libs = ['lib']
+fs_permissions = [{ access = "read-write", path = "./"}]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+[rpc_endpoints]
+default_network = "http://127.0.0.1:8545"
+localhost = "http://127.0.0.1:8545"
+
+mainnet = "https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_API_KEY}"
+sepolia = "https://eth-sepolia.public.blastapi.io"
+goerli = "https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_API_KEY}"
+arbitrum = "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+arbitrumGoerli = "https://rpc.goerli.arbitrum.gateway.fm"
+optimism = "https://opt-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+optimismGoerli = "https://optimism-goerli.publicnode.com"
+polygon = "https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+polygonMumbai = "https://polygon-mumbai-bor.publicnode.com"
+chiliz = "https://spicy-rpc.chiliz.com/"
+neonDevnet = "https://devnet.neonevm.org"
+baseGoerli = "https://base-goerli.publicnode.com"
+
+[etherscan]
+polygonMumbai = { key = "${ETHERSCAN_API_KEY}" }
+goerli = { key = "${ETHERSCAN_API_KEY}" }
+sepolia = { key = "{ETHERSCAN_API_KEY}" }
+baseGoerli = { key = "{ETHERSCAN_API_KEY}" }
+optimismGoerli = { key = "{ETHERSCAN_API_KEY}" }
+arbitrumGoerli = { key = "{ETHERSCAN_API_KEY}" }
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
