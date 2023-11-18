@@ -94,7 +94,7 @@ contract ChainlinkHelper {
 }
 
 contract DeployScript is ScaffoldETHDeploy, ChainlinkHelper {
-    address public footyDaoMain = 0x6eD3783FdA9ab2Ca991AB6a99e574784874A7678;
+    address public footyDaoMain = 0x52E058E5CD5D9a25117bCe2c467c521667b345b1;
 
     function run() external {
         uint256 deployerPrivateKey = setupLocalhostEnv();

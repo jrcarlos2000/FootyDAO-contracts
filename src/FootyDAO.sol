@@ -1,8 +1,8 @@
 pragma solidity ^0.8.18;
 
 import "./IFootyDAO.sol";
-import "lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
-import "lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import "openzeppelin-contracts/token/ERC721/ERC721.sol";
+import "openzeppelin-contracts/access/Ownable.sol";
 import {CCIPReceiver} from "@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol";
 import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
 import {IAny2EVMMessageReceiver} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IAny2EVMMessageReceiver.sol";
@@ -73,7 +73,8 @@ contract FootyDAO is IFootyDAO, ERC721, Ownable, CCIPReceiver {
             new address[](0),
             new address[](0),
             0,
-            new uint256[](0)
+            new uint256[](0),
+            false
         );
         sportEventCount++;
     }
@@ -152,6 +153,8 @@ contract FootyDAO is IFootyDAO, ERC721, Ownable, CCIPReceiver {
             sportEvent.endTime > 0 && sportEvent.endTime < block.timestamp,
             "Invalid game or close time"
         );
+        require(!sportEvent.closed, "Game already closed");
+        sportEvents[_sportEventId].closed = true;
         // todo add reentrancy guard
         for (uint256 i = 0; i < sportEvent.participants.length; i++) {
             (bool isInList, ) = _findInList(

@@ -19,6 +19,7 @@ interface IFootyDAO {
         address[] waitingList;
         uint256 takenWaitingList;
         uint256[] tokenIds;
+        bool closed;
     }
     struct Memory {
         address owner;

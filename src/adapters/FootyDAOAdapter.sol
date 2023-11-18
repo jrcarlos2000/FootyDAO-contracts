@@ -28,6 +28,10 @@ contract FootyDAOAdapter is IFootyDAOAdapter {
         s_linkToken = IERC20(_link);
     }
 
+    function setBaseChainContractAddr(address _baseChainContractAddr) external {
+        baseChainContractAddr = _baseChainContractAddr;
+    }
+
     function createSportEvent(
         uint256 _startTime,
         uint256 _endTime,
