@@ -56,6 +56,8 @@ FootyDAO is deployed across multiple testnets including Optimism Goerli, Polygon
 - Chiliz Fan Tokens
 - IPFS
 - API3
+- Worldcoin
+- Unlimit
 
 ## Technical Note
 
