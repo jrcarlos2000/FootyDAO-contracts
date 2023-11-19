@@ -50,6 +50,7 @@ FootyDAO is deployed across multiple testnets including Optimism Goerli, Polygon
 - [Celo Alfajores Address](https://explorer.celo.org/alfajores/address/0xf0a206dcaf5668fa5c824a01a2039d4cf07b771c)
 - [Scroll Sepolia Address](https://sepolia.scrollscan.com/address/0x86695F03264E4676B896cdD590e013815f3493b2)
 - [Bubs Testnet Celestia](https://bubs.calderaexplorer.xyz/address/0x16F219C94bf66127B769901c145bb091092fd3f5/contracts#address-tabs)
+- [Rewards Distributor Chiliz](https://scan.chiliz.com/address/0x6eAe6Ed7923a0C4ba8B8db01B34cc60960458743)
 
 
 ## Technology Stack
