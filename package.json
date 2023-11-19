@@ -5,8 +5,8 @@
     "@api3/airnode-protocol": "^0.13.0"
   },
   "scripts": {
-    "deploy": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --legacy && node script/generateTsAbis.js",
-    "deploy:verify": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --verify --legacy && node script/generateTsAbis.js",
+    "deploy": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --legacy",
+    "deploy:verify": "forge build && forge script script/Deploy.s.sol:DeployScript --rpc-url ${0:-default_network} --broadcast --verify --legacy",
     "deploy:functions": "forge build && forge script script/Deploy.s.sol:DeployFunctionsConsumer --rpc-url ${0:-default_network} --broadcast --verify --legacy"
   }
 }

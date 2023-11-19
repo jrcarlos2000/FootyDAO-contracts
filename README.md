@@ -24,7 +24,7 @@ https://goerli-optimism.etherscan.io/address/0xA63184B6e04EF4f9D516feaF6Df65dF60
 
 Arbitrum Goerli , Mumbai , Base Goerli  ->  Optimism Goerli
 
-https://ccip.chain.link/address/0x52E058E5CD5D9a25117bCe2c467c521667b345b1
+https://ccip.chain.link/address/0xA63184B6e04EF4f9D516feaF6Df65dF602B07a13
 
 ## Chainlink CCIP x Functions - Used to send rewards on chiliz network on schedule
 
@@ -38,6 +38,10 @@ https://mumbai.polygonscan.com/address/0x7043dfb5db32ef820d0bb23e6f168c94e8be8fb
 - Base Goerli : https://goerli.basescan.org/address/0x74E01d145AE90a431c7E90b6bDBFd61f007ea921
 - Polygon Mumbai : https://mumbai.polygonscan.com/address/0xb5964669ae1E5617c62DE976c05CA3D1A63f9Ca4
 - Arbitrum Goerli : https://goerli.arbiscan.io/address/0x659867Cc60b6aC93c112e55F384898017b2e4919
+- Linea Testnet :  https://explorer.goerli.linea.build/address/0x99370A50eFdB6Aab5CcaF741522FF0C07843DF49/contracts#address-tabs
+- Celo Alfajores : https://explorer.celo.org/alfajores/address/0xf0a206dcaf5668fa5c824a01a2039d4cf07b771c
+- Scroll Sepolia : https://sepolia.scrollscan.com/address/0x86695F03264E4676B896cdD590e013815f3493b2
+- 
 
 ## Technologies used
 

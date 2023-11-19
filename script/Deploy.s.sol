@@ -133,7 +133,7 @@ contract DeployScript is ScaffoldETHDeploy, ChainlinkHelper {
             token2.mint(address(weekRewards), 1000000000000000000000000);
 
             footyDaoAddr = address(weekRewards);
-        } else if (block.chainid == 245022926) {
+        } else if (block.chainid == 245022926  || block.chainid == 59140 || block.chainid == 534351 || block.chainid == 44787 || block.chainid == 51 || block.chainid == 10200 || block.chainid == 5001) {
             console.logString("Deploying single");
             // other chains
             FootyDAOSingleChain footyDAO = new FootyDAOSingleChain();
@@ -164,7 +164,6 @@ contract DeployScript is ScaffoldETHDeploy, ChainlinkHelper {
             )
         );
         vm.stopBroadcast();
-        exportDeployments();
     }
 
     function isSupportedChainId(uint256 chainId) public pure returns (bool) {
@@ -175,7 +174,9 @@ contract DeployScript is ScaffoldETHDeploy, ChainlinkHelper {
             chainId == 84531 ||
             chainId == 88882 ||
             chainId == 245022926 ||
-            chainId == 420;
+            chainId == 420 || 
+            chainId == 59140 || chainId == 534351 
+            || chainId == 44787 || chainId == 51 || chainId == 10200 || chainId == 5001;
     }
 
     function _createRandomGame(FootyDAOAdapter footyDAO) internal {

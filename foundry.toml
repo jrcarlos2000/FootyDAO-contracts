@@ -20,6 +20,12 @@ polygonMumbai = "https://polygon-mumbai-bor.publicnode.com"
 chiliz = "https://spicy-rpc.chiliz.com/"
 neonDevnet = "https://devnet.neonevm.org"
 baseGoerli = "https://base-goerli.publicnode.com"
+lineaTestnet = "https://rpc.goerli.linea.build"
+scrollSepolia = "https://sepolia-rpc.scroll.io"
+celoAlfajores = "https://alfajores-forno.celo-testnet.org"
+xdc = "https://rpc.apothem.network"
+gnosisChiado = "https://rpc.chiadochain.net"
+mantle = "https://rpc.testnet.mantle.xyz"
 
 [etherscan]
 polygonMumbai = { key = "${ETHERSCAN_API_KEY}" }
@@ -28,4 +34,8 @@ sepolia = { key = "{ETHERSCAN_API_KEY}" }
 baseGoerli = { key = "{ETHERSCAN_API_KEY}" }
 optimismGoerli = { key = "{ETHERSCAN_API_KEY}" }
 arbitrumGoerli = { key = "{ETHERSCAN_API_KEY}" }
+lineaTestnet = { key = "{ETHERSCAN_API_KEY}" }
+scrollSepolia = { key = "{ETHERSCAN_API_KEY}" }
+celoAlfajores = { key = "{ETHERSCAN_API_KEY}" }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
