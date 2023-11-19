@@ -32,7 +32,7 @@ View our pitch deck [here](https://pitch.com/v/FootyDAO-qkhhkg)
 
 - Base FootyDAO Contract - Optimism Goerli: Optimism : [Address](https://goerli-optimism.etherscan.io/address/0xA63184B6e04EF4f9D516feaF6Df65dF602B07a13)
 ### Chainlink CCIP transactions - Interoperability 
-- Arbitrum Goerli , Mumbai , Base Goerli  ->  Optimism Goerli : [CCIP LINK](https://ccip.chain.link/address/0xA63184B6e04EF4f9D516feaF6Df65dF602B07a13)
+- Arbitrum Goerli , Mumbai , Base Goerli  ->  Optimism Goerli : [CCIP LINK](https://ccip.chain.link/address/0xA63184B6e04EF4f9D516feaF6Df65dF602B07a13) Check "incoming"
 ### Chainlink Functions: Manage FAN token distribution on the Chiliz network : 
 - Showcased [here](https://mumbai.polygonscan.com/address/0x7043dfb5db32ef820d0bb23e6f168c94e8be8fb2)
   
