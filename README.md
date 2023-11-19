@@ -52,10 +52,10 @@ FootyDAO is deployed across multiple testnets including Optimism Goerli, Polygon
 
 
 ## Technology Stack
-Chainlink CCIP and Functions
-Chiliz Fan Tokens
-IPFS
-API3
+- Chainlink CCIP and Functions
+- Chiliz Fan Tokens
+- IPFS
+- API3
 
 ## Technical Note
 
