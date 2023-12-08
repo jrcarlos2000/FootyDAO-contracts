@@ -26,7 +26,7 @@ Experience FootyDAO live at [FootyDAO App](https://footy-dao.vercel.app/).
 Explore our design concepts [on Figma - FootyDAO](https://www.figma.com/file/CKBHdH4XdB1NaRWQEHiO54/FootyDAO?type=design&node-id=446-42&mode=design&t=l1m6Af4oEJJGtpDP-0)
 
 ## Pitch Deck ✨
-View our pitch deck [here](https://pitch.com/v/FootyDAO-qkhhkg)
+View our pitch deck [here](https://pitch.com/v/FootyDAO-63ksq3)
 
 ## Blockchain Contracts and Interoperability
 
